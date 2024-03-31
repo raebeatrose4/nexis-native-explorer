@@ -120,5 +120,6 @@
   .card-body {
     max-height: $dropdown-card-body-max-height;
     overflow-y: auto;
+    background-color: #131313 !important;
   }
 }

@@ -197,6 +197,7 @@ h4.slot-pill {
 .search-bar__control {
   border-radius: $border-radius !important;
   padding: 4px;
+  background-color: $card-outline-color!important;
 }
 
 .search-bar__menu {
@@ -276,7 +277,7 @@ div.inner-cards {
   margin: 1.5rem;
 
   .card {
-    background-color: $gray-700-dark;
+    background-color: #131313 !important;
   }
 
   .table td {
