@@ -8,13 +8,13 @@ import { localStorageIsAvailable } from "utils";
 export function clusterApiUrl(cluster: string): string {
   switch (cluster) {
     case "mainnet-beta":
-      return "https://evm-testnet.nexis.network";
+      return "https://evm-mainnet.nexis.network";
     case "testnet":
       return "https://evm-testnet.nexis.network";
     case "devnet":
-      return "https://evm-testnet.nexis.network";
+      return "https://evm-devnet.nexis.network";
     default:
-      return "https://evm-testnet.nexis.network";
+      return "https://evm-devnet.nexis.network";
   }
 }
 
